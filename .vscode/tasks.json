@@ -19,7 +19,19 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"label": "Rust: cargo build - mingrep"
+			"label": "Rust: cargo build - minigrep"
+		},
+		{
+			"type": "cargo",
+			"subcommand": "test",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"label": "Rust: cargo test - minigrep"
 		}
 	]
 }
